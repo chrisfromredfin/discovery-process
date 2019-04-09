@@ -9,11 +9,13 @@
     "browser-sync": "^2.24.4",
     "dart-sass": "1.6.2",
     "onchange": "^4.0.0",
+    "parallelshell": "^3.0.2",
     "reveal-md": "^2.0.6"
   },
   "scripts": {
     "build": "dart-sass assets/source/redfin.scss > assets/redfin.css",
-    "bs": "browser-sync start --files=assets/redfin.css --files=index.html --files=slides.md --reload-delay=100",
-    "watch": "onchange 'assets/**/*.scss' -- yarn build"
+    "bs": "browser-sync start -c bs-config.js",
+    "watch:sass": "onchange 'assets/**/*.scss' -i -p -- yarn build",
+    "watch": "parallelshell 'yarn run watch:sass' 'yarn run bs'"
   }
 }

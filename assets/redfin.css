@@ -372,3 +372,21 @@ body {
 .align-left {
   text-align: left;
 }
+
+.column {
+  float: left;
+  width: calc(50% - 1em);
+  margin-right: 1em;
+}
+
+.pull-right {
+  float: right;
+  margin: 1rem;
+}
+
+.fragment.visible:not(.current-fragment) {
+  display: none;
+  height: 0px;
+  line-height: 0px;
+  font-size: 0px;
+}
