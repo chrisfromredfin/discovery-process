@@ -106,3 +106,9 @@ But... it does makes sense to revisit some things.
 # Until we finish
 
 ![blob jumping over finish line](/img/progress.gif "incremental progress until the finish")
+
+---
+
+# Questions
+
+![Any questions?](/img/questions.jpg "Any questions?")
