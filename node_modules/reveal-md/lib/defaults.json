@@ -1,0 +1,20 @@
+{
+  "disableAutoOpen": false,
+  "highlightTheme": "zenburn",
+  "host": "localhost",
+  "scripts": [],
+  "css": [],
+  "preprocessor": null,
+  "port": 1948,
+  "print": false,
+  "revealOptions": {},
+  "template": "template/reveal.html",
+  "listingTemplate": "template/listing.html",
+  "theme": "black",
+  "title": "reveal-md",
+  "separator": "\r?\n---\r?\n",
+  "static": false,
+  "staticDirs": [],
+  "verticalSeparator": "\r?\n----\r?\n",
+  "watch": false
+}
